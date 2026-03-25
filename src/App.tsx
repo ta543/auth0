@@ -5,7 +5,7 @@ import { FloatingActions } from "@/components/FloatingActions";
 
 export const App = () => {
   return (
-    <body className="text-black text-base not-italic normal-nums font-normal accent-auto box-border caret-transparent block tracking-[normal] leading-6 list-outside list-disc min-h-full pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-inter">
+    <div className="text-black text-base not-italic normal-nums font-normal accent-auto box-border caret-transparent block tracking-[normal] leading-6 list-outside list-disc min-h-full pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-inter">
       <div className="box-border caret-transparent hidden"></div>
       <div className="relative text-neutral-500 box-border caret-transparent">
         <div className="box-border caret-transparent contents w-auto md:flex md:w-full">
@@ -48,6 +48,6 @@ export const App = () => {
           className="box-content caret-black md:aspect-auto md:box-border md:caret-transparent md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:p-0 md:scroll-m-0 md:scroll-p-[auto]"
         ></dialog>
       </div>
-    </body>
+    </div>
   );
 };
